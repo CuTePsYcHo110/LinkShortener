@@ -52,7 +52,7 @@ async def msgg(event):
 @BotzHub.on(events.callbackquery.CallbackQuery(data="help"))
 async def send_help(event):
     await event.edit(
-        "**URL Shortener.**\n\nSend me any URL and I'll shorten it for you!\nJoin @@CrAzIe_BoTz if you liked this bot!",
+        "**URL Shortener.**\nSend me any URL and I'll shorten it for you!\nJoin @CrAzIe_BoTz for more amazing botz!",
         buttons=[
             [Button.switch_inline("Go Inline", query="", same_peer=True)],
             [Button.inline("« Back", data="bck")],
